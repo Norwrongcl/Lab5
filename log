@@ -39,3 +39,9 @@ treemap.c:86:8: error: ‘hijo’ may be used uninitialized in this function [-W
 cc1: all warnings being treated as errors
 Compilation failed
 938d940
+Tue 13 Sep 2022 01:03:05 AM UTC: 
+ treemap.c | 217 +++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 129 insertions(+), 88 deletions(-)
+ tests:  29|0
+total_score: 70/70
+8500563
