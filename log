@@ -4,3 +4,15 @@ Tue 13 Sep 2022 12:52:45 AM UTC:
  tests:  4|7
 total_score: 5/70
 ecf4fe3
+Tue 13 Sep 2022 12:59:32 AM UTC: 
+ treemap.c | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+In file included from test.c:4:
+treemap.c:84:12: error: redefinition of ‘minimum’
+   84 | TreeNode * minimum(TreeNode * x){
+      |            ^~~~~~~
+treemap.c:76:12: note: previous definition of ‘minimum’ was here
+   76 | TreeNode * minimum(TreeNode * x){
+      |            ^~~~~~~
+Compilation failed
+f027065
